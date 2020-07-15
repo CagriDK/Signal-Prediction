@@ -1,0 +1,12 @@
+Author*CagriDK
+
+There are two files provided together with this homework “train_data.xlsx” and “test_data.xlsx”. These files contain representative BLE beacon measurements. 
+There are two columns in both files where the first column is distance and the second column is the corresponding signal strength. 
+Each row is the measured distance for different signal strength values.  
+
+-The number of rows in “train_data.xlsx” is 115. This is the training set. 
+-The number of rows in “test_data.xlsx” is 20. This is the test set. 
+
+ConsiderİNG the problem of associating the signal strength with the distance. 
+In such a problem, distance value may be taken as a feature to model the value of signal strength. 
+Therefore we will take the “distance” column as the single feature and “signal strength” as the target value. 
